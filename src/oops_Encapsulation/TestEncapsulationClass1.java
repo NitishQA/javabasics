@@ -1,6 +1,6 @@
 package oops_Encapsulation;
 /*
- 2nd Commit
+ 
  The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users.
  To achieve this, you must:
 
