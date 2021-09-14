@@ -3,7 +3,7 @@ package fileHandling;
 import java.io.File;
 import java.io.IOException;
 
-/*
+/**
  File handling implies how to read from and write to in file. java.io package allows to do all input and output task in java.
  */
 public class CreateFile {
