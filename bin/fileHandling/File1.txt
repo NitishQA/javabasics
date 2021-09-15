@@ -1,1 +1,2 @@
-This is Dummy sentence from FileWriter
+This is Dummy sentence from FileWriter.
+This is second line
