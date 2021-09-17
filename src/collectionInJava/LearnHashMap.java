@@ -35,6 +35,7 @@ public class LearnHashMap {
 
 	public static void hashMapEntryMethod() {
 		Map<String, String> fruits = new HashMap<>();
+		
 
 //		fruits.put("red", "apple");
 //		fruits.put("yellow", "banana");

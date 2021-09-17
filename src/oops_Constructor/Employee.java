@@ -6,6 +6,9 @@ package oops_Constructor;
                -->Constructor is a block similar to method
                -->Constructor does not have any return type, not even void
                -->Constructor are used to initialize object
+               
+               1 - Parameterized Constructor
+               2 - Default Constructor
  */
 
 public class Employee {

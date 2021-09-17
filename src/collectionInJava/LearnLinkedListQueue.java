@@ -22,7 +22,7 @@ public class LearnLinkedListQueue {
 		obj.offer(15);
 		System.out.println(obj);
 		
-		System.out.println("Removed element is  : "+obj.poll()); //Used to remove last element
+		System.out.println("Removed element is  : "+obj.poll()); //Used to remove 1st element
 		System.out.println(obj);
 		
 		System.out.println("The 1st element of queue is : "+obj.peek());//Used to return 1st element of queue, return null if queue is empty

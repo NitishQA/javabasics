@@ -1,5 +1,12 @@
 package methodsInJava;
 
+/*****
+       method in Java is a collection of instructions that performs a specific task. It provides the re usability of code.
+       
+       1 - Static Method  - Can be called directly in other static method
+       2 - Non Static Method - Need to create object for calling it in under any static method
+ */
+
 
 public class TestClassM1 {
 
@@ -10,6 +17,7 @@ public class TestClassM1 {
 
 		TestClassM1 obj1 = new TestClassM1(); //For Calling non static method within a class, object should get created of class.
 		obj1.additionNonStaticMethod(4, 6);
+		
 
 		TestClassM2.multipliStaticMethod(4, 5); //For Calling static method outside a class, it can be done by classname
 		

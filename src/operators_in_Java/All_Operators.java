@@ -32,8 +32,8 @@ Assignment	assignment	= += -= *= /= %= &= ^= |= <<= >>= >>>=
 		 **/
 		All_Operators obj1 = new All_Operators();
 
-		obj1.Unary_operator();
-		obj1.Arithmetic_operator();
+//		obj1.Unary_operator();
+//		obj1.Arithmetic_operator();
 		obj1.Relational_Comparision_operator();
 		obj1.Logical_operator1();
 		obj1.Logical_operator2();
@@ -51,7 +51,7 @@ Assignment	assignment	= += -= *= /= %= &= ^= |= <<= >>= >>>=
 		System.out.println("Initially the value is: " +x);
 		System.out.println();
 
-		System.out.println(x++);//Here first operation, i.e. it will print 10, and when it goes to next line   
+		System.out.println(x++);//Here first operation, i.e. it will print 10, and when it goes to next line by making increment   
 		// Here x = 11 
 
 		System.out.println();
@@ -63,6 +63,8 @@ Assignment	assignment	= += -= *= /= %= &= ^= |= <<= >>= >>>=
 
 		System.out.println(x--);//Here first operation i.e. 12, and when it goes to next line
 		// Here x = 11
+		
+		System.out.println(x);
 
 		System.out.println(--x);//Here first decrement, i.e. --11 = 10
 		System.out.println();

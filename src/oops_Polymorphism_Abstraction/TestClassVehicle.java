@@ -2,14 +2,14 @@ package oops_Polymorphism_Abstraction;
 
 /*
    -->Abstraction is detail hiding (Implementation hiding)
-   -->If any class is having abstract method, then it's compulsory to nake that class as abstract class. 
+   -->If any class is having abstract method, then it's compulsory to make that class as abstract class. 
    -->Abstract method don't have body
  
  */
 
 	abstract class TestClassVehicle {
 
-		abstract void start();
+		 abstract void start(); //Abstract Method
 
 	}
 
@@ -18,6 +18,10 @@ package oops_Polymorphism_Abstraction;
 		void start() {
 			System.out.println("Scooter start with Kick");
 		}
+		
+		
+		
+		
 	}
 
 	class Car extends TestClassVehicle{
@@ -32,6 +36,7 @@ package oops_Polymorphism_Abstraction;
 			
 			Scooter obj2 = new Scooter();
 			obj2.start();
+			
 			
 		}
 

@@ -1,4 +1,5 @@
 package collectionInJava;
+//ArrayList -  uses a dynamic array for storing the elements
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,13 +31,13 @@ public class ArrayListClass {
 	public static void addArrayListInteger() {
 		List<Integer> studentNoList = new ArrayList<>();
 		studentNoList.add(11);  //Used to add new element 
-		studentNoList.add(12);
+		studentNoList.add(12);  //Used to add new element 
 		System.out.println("The Students numbers are : "+studentNoList );
 
-		studentNoList.add(13);
+		studentNoList.add(13);  //Used to add new element 
 		System.out.println("The Students numbers are : "+studentNoList );
 
-		studentNoList.add(2, 56);
+		studentNoList.add(2, 56); //Adding element in index 2
 		System.out.println("The Students numbers are : "+studentNoList );
 
 		List<Integer> studentNoList1 = new ArrayList<>();
@@ -55,24 +56,24 @@ public class ArrayListClass {
 
 		studentNoList.remove(1); //Is used to remove element
 		System.out.println("The Students numbers are : "+studentNoList );
-		
+
 		studentNoList.remove(Integer.valueOf(25)); //Will remove the value by just providing the value , 25 is value here
 		System.out.println("The Students numbers are : "+studentNoList );
-		
-//		studentNoList.clear(); //Removes all the elements from list
-//		System.out.println("The Students numbers are : "+studentNoList );
-		
+
+		//		studentNoList.clear(); //Removes all the elements from list
+		//		System.out.println("The Students numbers are : "+studentNoList );
+
 		studentNoList.set(1, 1000); //Used to update the element by providing it's index
 		System.out.println("The Students numbers are : "+studentNoList );
-		
-//		boolean s = studentNoList.contains(28); //The above code can also be written in below format
-//		System.out.println(s);
-		
+
+		//		boolean s = studentNoList.contains(28); //The above code can also be written in below format
+		//		System.out.println(s);
+
 		System.out.println(studentNoList.contains(28)); //Used to search a particular element in list
-		
-		
-		
-		
+
+
+
+
 	}
 
 

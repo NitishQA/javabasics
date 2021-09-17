@@ -1,6 +1,7 @@
 package oops_Inheritance;
 /*
    Inheritance :- 
+                  -->Uses - Inheritance allows reusability of code 
                   -->It is the procedure in which, one object acquires all the behavior and properties 
                   of it's parent object
                   -->We achieve inheritance through word "extends"
@@ -8,6 +9,8 @@ package oops_Inheritance;
                      1 - Single Inheritance - B extends A
                      2 - Multilevel inheritance - C extends B, B Extends A
                      3 - Hierarchical inheritance - C extends A, B Extends A
+                     
+                     
 
  */
 
@@ -28,14 +31,17 @@ public class A {
 		D obj4 = new D();
 		
 		obj1.showA();
+		System.out.println();
 		
 		obj2.showB();
 		obj2.showA();
+		System.out.println();
 		
 		obj3.showC();
 		obj3.showA();
+		System.out.println();
 		
-		obj4.showC();
+		obj4.runA();
 		
 	} 
 		
